@@ -1,4 +1,4 @@
-package com.edward.leetcode;
+package com.edward.leetcode.easy;
 
 /**
  * <h3> 100. Same Tree
