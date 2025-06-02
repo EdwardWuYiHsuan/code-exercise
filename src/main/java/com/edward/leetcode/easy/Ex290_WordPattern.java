@@ -43,7 +43,7 @@ public class Ex290_WordPattern {
     /**
      * Checking word is same as pattern
      */
-    public boolean wordPattern1(String pattern, String s) {
+    public boolean wordPattern1(String pattern, String s) {  // Solved by myself.
 
         String[] sAry = s.split(" ");
         if (pattern.length() != sAry.length) {
@@ -79,7 +79,7 @@ public class Ex290_WordPattern {
         return patternRule.equals(sRule);
     }
 
-    public boolean wordPattern2(String pattern, String s) {
+    public boolean wordPattern2(String pattern, String s) {  // Solved after reading the explanation.
 
         String[] sAry = s.split("\\s+");
         if (pattern.length() != sAry.length) {

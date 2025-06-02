@@ -27,7 +27,7 @@ public class Ex283_MoveZeroes {
     /**
      * Move integer 0 to end of array.
      */
-    public void moveZeroes1(int[] nums) {  // Time Complexity:O(2n)，Space Complexity:O(n)
+    public void moveZeroes1(int[] nums) {  // Solved by myself. Time Complexity:O(2n)，Space Complexity:O(n)
         List<Integer> scratch = new ArrayList<>();
         for (int i : nums) {
             if (i != 0) {
@@ -43,7 +43,7 @@ public class Ex283_MoveZeroes {
         }
     }
 
-    public void moveZeroes2(int[] nums) {  // Time Complexity: < O(2n)，Space Complexity:0
+    public void moveZeroes2(int[] nums) {  // Solved after reading the explanation. Time Complexity: < O(2n)，Space Complexity:0
         int idx = 0;
         for (int i = 0; i < nums.length; i++) {  // move non 0 to front of array.
             if (nums[i] != 0) {
